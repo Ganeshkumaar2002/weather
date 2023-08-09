@@ -10,6 +10,14 @@ body{
     height:40vh; 
 }
 
+#city-image{
+    width:5vw;
+    height:10vh;
+    position:absolute;
+    top:23px;
+    left:0;
+}
+
 /* Example of using media queries for responsive design */
 /* @media (max-width: 768px) {
     .header {
