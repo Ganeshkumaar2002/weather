@@ -1,0 +1,19 @@
+/* styles.css */
+body{
+    margin:0;
+}
+.forcast {
+    background-image: url('/Assets/HTM&CSS/General_Images_&_Icons/background.svg');
+    background-size:cover; /* Adjust the background size as needed */
+    background-position: center center; /* Center the background image */
+    background-repeat: no-repeat; 
+    height:40vh; 
+}
+
+/* Example of using media queries for responsive design */
+/* @media (max-width: 768px) {
+    .header {
+        background-size: contain; 
+        height: 200px; 
+    }
+} */
