@@ -1,21 +1,50 @@
 /* styles.css */
 body{
     margin:0;
+  
 }
-.forcast {
-    background-image: url('/Assets/HTM&CSS/General_Images_&_Icons/background.svg');
+
+.flex-item{
+    min-height: 20rem;
+    min-width: 100%;
+
+}
+header{
+    background-image: url('Assets/HTM&CSS/General_Images_&_Icons/background.svg');
     background-size:cover; /* Adjust the background size as needed */
     background-position: center center; /* Center the background image */
-    background-repeat: no-repeat; 
-    height:40vh; 
+    background-repeat: no-repeat;
+    height:50vh;
+}
+.forcast {
+    padding-top: 3%;
+
+    display: grid;
+    grid-template-columns:auto 2fr 2fr 5fr;
+    grid-auto-rows:30vh ;
+    grid-column-gap:1.7rem;
+}
+
+.for-select-city{
+    display:grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap:1rem ;
 }
 
 #city-image{
-    width:5vw;
-    height:10vh;
-    position:absolute;
-    top:23px;
-    left:0;
+    width:7vw;
+    height:auto;
+    margin-left: -11px;
+    margin-top: -15px;
+}
+
+.details{
+    background-color: rgb(27, 21, 21);
+    border-radius:3rem 3rem 0px 0px;
+    margin-top: -7vh;
+    min-height: 60vh;
+
 }
 
 /* Example of using media queries for responsive design */
